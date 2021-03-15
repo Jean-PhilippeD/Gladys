@@ -752,6 +752,74 @@
         "defaultDeletionError": "Une erreur s'est produite lors de la suppression de l'appareil.",
         "conflictError": "L'appareil actuel est déjà dans Gladys."
       }
+    },
+    "enocean": {
+      "title": "Enocean",
+      "description": "Contrôler vos appareils EnOcean",
+      "deviceTab": "Appareils",
+      "settingsTab": "Paramètres",
+      "teachTab": "Apprentissage",
+      "saveButton": "Sauvegarder",
+      "updateButton": "Mettre à jour",
+      "deleteButton": "Supprimer",
+      "manualTeachIn": "Apprentissage manuel",
+      "profile": "Profile",
+      "cancelButton": "Annuler",
+      "inspect": "Inspecter",
+      "hide": "Cacher",
+      "device": {
+        "title": "Appareils Enocean",
+        "id": "Identifiant",
+        "search": "Chercher un appareil",
+        "noDevices": "Aucun appareil Enocean n'a encore été ajouté.",
+        "scanButton": "Rechercher",
+        "modelLabel": "Modèle",
+        "nameLabel": "Nom",
+        "roomLabel": "Pièce",
+        "featuresLabel": "Fonctionnalités",
+        "noFeatures": "Pas de fonctionnalités",
+        "saveButton": "Sauvegarder",
+        "deleteButton": "Supprimer",
+        "editButton": "Editer",
+        "idPlaceholder": "018644e6",
+        "namePlaceholder": "Nom",
+        "mostRecentValueAt": "Dernière valeur reçue {{mostRecentValueAt}}.",
+        "noValueReceived": "Aucune valeur reçue.",
+        "stateInspection": "Dernières valeurs remontées",
+        "unsupported": {
+          "title": "Equipement non supporté",
+          "description": "JSON body",
+          "eep": "Profile EEP",
+          "data": "data",
+          "shortcut": "shortcut",
+          "values": "values",
+          "bodyDescription": "description"
+        }
+      },
+      "teachIn": {
+        "title": "Recherchez ici les appareils en apprentissage",
+        "description": "Activez la fonction Teach In sur les équipements désirés afin de les voir apparaitre ci-dessous.",
+        "noDeviceFound": "Aucun appareil découvert pour le moment"
+      },
+      "settings": {
+        "title": "Paramètres Enocean",
+        "description": "Pour utiliser le Enocean dans Gladys, vous devez avoir une clé USB Enocean connectée à votre instance Gladys.",
+        "zwaveUsbDriverPathLabel": "Sélectionnez le port USB auquel votre clé Enocean est connectée",
+        "connectButton": "Connecter",
+        "disconnectButton": "Déconnecter",
+        "refreshButton": "Rafraîchir la liste USB",
+        "notConnected": "Gladys n'est connectée à aucune clé USB Enocean.",
+        "connectedWithSuccess": "Clé USB Enocean connectée avec succès.",
+        "connecting": "Tentative de connexion à la clé USB Enocean...",
+        "driverFailedError": "Une erreur s'est produite lors de la tentative de connexion à la clé USB Enocean."
+      },
+      "error": {
+        "defaultError": "Une erreur s'est produite lors de l'enregistrement de l'appareil.",
+        "defaultDeletionError": "Une erreur s'est produite lors de la suppression de l'appareil.",
+        "conflictError": "Le topic actuel est déjà utilisé.",
+        "missingProfile": "Le nom du profile n'a pas été renseigné.",
+        "missingId": "L'id de l'équipement n'a pas été renseigné."
+      }
     }
   },
   "editScene": {

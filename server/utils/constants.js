@@ -430,6 +430,13 @@ const WEBSOCKET_MESSAGE_TYPES = {
     NEW_DEVICE: 'ewelink.new-device',
     ERROR: 'ewelink.error',
   },
+  ENOCEAN: {
+    DRIVER_READY: 'enocean.driver-ready',
+    DRIVER_FAILED: 'enocean.driver-failed',
+    NODE_READY: 'enocean.node-ready',
+    NEW_DEVICE: 'enocean.new-device',
+    UNSUPPORTED_BODY_DEVICE: 'enocean.unsupported-body-device'
+  },
 };
 
 const DASHBOARD_TYPE = {

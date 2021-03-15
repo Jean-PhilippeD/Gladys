@@ -97,6 +97,11 @@ import EweLinkEditPage from '../routes/integration/all/ewelink/edit-page';
 import EweLinkDiscoverPage from '../routes/integration/all/ewelink/discover-page';
 import EweLinkSetupPage from '../routes/integration/all/ewelink/setup-page';
 
+// Enocean
+import EnoceanDevicePage from '../routes/integration/all/enocean/device-page';
+import EnoceanSettingsPage from '../routes/integration/all/enocean/settings-page';
+import EnoceanTeachInPage from '../routes/integration/all/enocean/teachIn-page';
+
 const defaultState = getDefaultState();
 const store = createStore(defaultState);
 
@@ -207,6 +212,10 @@ const AppRouter = connect(
         <BluetoothSetupPage path="/dashboard/integration/device/bluetooth/setup" />
         <BluetoothSetupPeripheralPage path="/dashboard/integration/device/bluetooth/setup/:uuid" />
         <BluetoothSettingsPage path="/dashboard/integration/device/bluetooth/config" />
+
+        <EnoceanDevicePage path="/dashboard/integration/device/enocean" />
+        <EnoceanSettingsPage path="/dashboard/integration/device/enocean/settings" />
+        <EnoceanTeachInPage path="/dashboard/integration/device/enocean/teach" />
 
         <ChatPage path="/dashboard/chat" />
         <MapPage path="/dashboard/maps" />

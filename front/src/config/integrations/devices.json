@@ -37,5 +37,9 @@
   {
     "key": "eWeLink",
     "img": "/assets/integrations/cover/ewelink.jpg"
+  },
+  {
+    "key": "enocean",
+    "img": "/assets/integrations/cover/enocean.png"
   }
 ]

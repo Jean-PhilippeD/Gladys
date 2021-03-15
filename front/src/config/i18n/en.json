@@ -752,6 +752,74 @@
         "defaultDeletionError": "There was an error deleting the device.",
         "conflictError": "Current device is already in Gladys."
       }
+    },
+    "enocean": {
+      "title": "Enocean",
+      "description": "Control your Enocean devices.",
+      "deviceTab": "Devices",
+      "settingsTab": "Settings",
+      "teachTab": "Teach In",
+      "saveButton": "Save",
+      "updateButton": "Update",
+      "deleteButton": "Delete",
+      "cancelButton": "Cancel",
+      "manualTeachIn": "Manual Teach In",
+      "profile": "Profile",
+      "inspect": "Inspect",
+      "hide": "Hide",
+      "device": {
+        "title": "Enocean Devices",
+        "id": "Identifier",
+        "search": "Search devices",
+        "noDevices": "No Enocean devices added yet.",
+        "scanButton": "Scan",
+        "modelLabel": "Model",
+        "nameLabel": "Name",
+        "roomLabel": "Room",
+        "featuresLabel": "Features",
+        "noFeatures": "No features",
+        "saveButton": "Save",
+        "deleteButton": "Delete",
+        "editButton": "Edit",
+        "idPlaceholder": "018644e6",
+        "namePlaceholder": "Name",
+        "mostRecentValueAt": "Last value received {{mostRecentValueAt}}.",
+        "noValueReceived": "No value received.",
+        "stateInspection": "Last received values",
+        "unsupported": {
+          "title": "Device not supported",
+          "description": "JSON body",
+          "eep": "EEP profile",
+          "data": "data",
+          "shortcut": "shortcut",
+          "values": "values",
+          "bodyDescription": "description"
+        }
+      },
+      "teachIn": {
+        "title": "Look for you teach In devices",
+        "description": "Set your devices in Teach In mode and they will show up below.",
+        "noDeviceFound": "No device found yet."
+      },
+      "settings": {
+        "title": "Enocean Settings",
+        "description": "To use Enocean in Gladys, you need to have a Enocean USB Stick connected to your Gladys instance.",
+        "zwaveUsbDriverPathLabel": "Select the USB port where your Enocean stick is connected",
+        "connectButton": "Connect",
+        "disconnectButton": "Disconnect",
+        "refreshButton": "Refresh USB list",
+        "notConnected": "Gladys is not connected to any Enocean USB stick.",
+        "connectedWithSuccess": "Enocean USB stick connected with success.",
+        "connecting": "Trying to connect to Enocean USB stick...",
+        "driverFailedError": "An error occured while trying to connect to Enocean USB stick."
+      },
+      "error": {
+        "defaultError": "There was an error saving the device.",
+        "defaultDeletionError": "There was an error deleting the device.",
+        "conflictError": "Current topic is already in use.",
+        "missingProfile": "Device profile is missing.",
+        "missingId": "Deviec id is missing."
+      }
     }
   },
   "editScene": {
